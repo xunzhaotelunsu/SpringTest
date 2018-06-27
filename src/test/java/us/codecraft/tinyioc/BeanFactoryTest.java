@@ -19,6 +19,7 @@ public class BeanFactoryTest {
         // 3.获取bean
         HelloWorldService helloWorldService = (HelloWorldService) beanFactory.getBean("helloWorldService");
         helloWorldService.helloWorld();
+		System.out.println("helloWorld");
 
 
     }
