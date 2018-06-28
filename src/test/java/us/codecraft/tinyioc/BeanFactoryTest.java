@@ -20,6 +20,7 @@ public class BeanFactoryTest {
         HelloWorldService helloWorldService = (HelloWorldService) beanFactory.getBean("helloWorldService");
         helloWorldService.helloWorld();
 		System.out.println("helloWorld");
+		System.out.println("可能存在冲突");
 
 
     }
